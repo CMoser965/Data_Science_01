@@ -20,5 +20,5 @@ data = {
 df = pd.DataFrame(data)
 
 # Save to CSV file
-df.to_csv('dataset/generated/synthetic_manufacturing_data.csv', index=False)
-print(df.head())
+df.to_csv('../dataset/generated/synthetic_manufacturing_data.csv', index=False)
+print("Data generated.")
